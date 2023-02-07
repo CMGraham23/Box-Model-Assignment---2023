@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+/* The image used */
+background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}  
+
+.bg2 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    
+    /* Full height */
+    height: 50%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }  
+    
+
+.navbar ul{
+margin: 0%;
+padding: 0%;
+list-style: none;
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+.navbar ul li{
+margin: 0 1em;
+padding: 1em ;    
+}
+
+
+.navbar ul li a{
+position: relative;
+text-decoration: none;       
+font-weight: 599;    
+text-transform: uppercase;
+color: #d6cb67; 
+}
+
+
+h1{
+    color: #4D2C03;
+    
+}
+
+.navbar a:hover{
+    background-color: #f19419;
+    color: #4D2C03;
+}
+
+
+
+
+/* Indian Flag */
+
+
+    .box1 {
+       width: 400px; 
+       height: 80px;
+       background: #ea8707;
+    }
+
+    .box2 {
+       width: 400px; 
+       height: 80px;
+       background: #f9f7f5;
+    }
+
+
+    .box3 {
+       width: 400px; 
+       height: 80px;
+       background: #31632b;
+    }
+
+
+/* Romanian Flag */
+
+.box4 {
+    width: 133px; 
+    height: 240px;
+    background:#fafa3b;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-left: 133px solid  blue;
+    border-right: 133px solid  red;
+}
+
